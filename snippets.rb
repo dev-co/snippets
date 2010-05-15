@@ -26,11 +26,13 @@ end
 
 post '/snippet/new' do
 
+	@user = AppEngine::Users.current_user
+	
 	title		= params[ :title ]
 	code		= params[ :code ]
 	lang		= params[ :lang ]
-	user_nickname	= params[ :user_nickname ]
-	
+	user_nickname	= @user.nickname
+
 	snippet = Snippet.new( :title => title, :code => code, :lang => lang, :user_nickname => user_nickname )
 	snippet.save
 
