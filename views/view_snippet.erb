@@ -1,6 +1,6 @@
 <div></div>
 <p style="font-size: 10pt;">
-	<a href="/<%= @snippet.snippet_id %>">ID: <%= @snippet.snippet_id %></a> - <%= @snippet.title %>
+	<a href="/<%= @snippet.snippet_id %>" class="readmore"><img src="/link.png"/> <%= @snippet.snippet_id %> - <%= @snippet.title %>  </a>
 	<br />
 	Posted by <a href="/user/<%= @snippet.user_nickname.to_s %>"><%= @snippet.user_nickname.to_s %></a> on <%= @snippet.insert_date %>.
 	Language <a href="/lang/<%= @snippet.lang %>"><%= @snippet.lang %></a><br />
