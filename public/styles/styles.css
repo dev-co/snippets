@@ -2,19 +2,19 @@
     CSS Document by Alexandre Joseph
     http://alexandrejoseph.com/
     
-Bienvenue dans la CSS de votresite.com, vous avez tout à 
+Bienvenue dans la CSS de votresite.com, vous avez tout ï¿½ 
 fait le droit de vous en inspirez, mais pas de plagier le design.
-En plus, il est de votre intérais d'avoir un site au design original,
-pour qu'il ait sa propre identité visuelle, plutôt qu'un design  plagié...
+En plus, il est de votre intï¿½rais d'avoir un site au design original,
+pour qu'il ait sa propre identitï¿½ visuelle, plutï¿½t qu'un design  plagiï¿½...
 
-La feuille de style est organisé de cette façon:
+La feuille de style est organisï¿½ de cette faï¿½on:
 
 -0: Body
--1: Page et styles associés
--2: Header et styles associés
--3: Contenu et styles associés
--4: Menu et styles associés
--5: Footer et styles associés
+-1: Page et styles associï¿½s
+-2: Header et styles associï¿½s
+-3: Contenu et styles associï¿½s
+-4: Menu et styles associï¿½s
+-5: Footer et styles associï¿½s
 -6: Formatage du texte
 
 Bonne visite ;)
@@ -29,7 +29,7 @@ body{
  text-align: center;
 }
 /* -------------------------------------------------------------------
-Page et styles associés
+Page et styles associï¿½s
  ------------------------------------------------------------------- */
 #page{
  width: 960px;
@@ -51,7 +51,7 @@ display: inline;
  color: #c0c0c0;
 }
 /* -------------------------------------------------------------------
-Header et styles associés
+Header et styles associï¿½s
  ------------------------------------------------------------------- */
 #header{
  height: 61px;
@@ -75,19 +75,19 @@ Header et styles associés
 
 }
 /* -------------------------------------------------------------------
-Contenu et styles associés
+Contenu et styles associï¿½s
  ------------------------------------------------------------------- */
 #contenu{
  margin-top: 5em;
  margin-left: 170px;
 /* permet de fixer une hauteur mini sur les navigateurs modernes */
 min-height:50em;
-/* pour obtenir le même effet sur IE, sachant que si le contenu dépasse, il
+/* pour obtenir le mï¿½me effet sur IE, sachant que si le contenu dï¿½passe, il
 "poussera" la hauteur en ne respectant pas la norme. On se joue de ses lacunes
 */
 height:50em;
 }
-/* pour rétablir le mauvais effet sur les nav. modernes */
+/* pour rï¿½tablir le mauvais effet sur les nav. modernes */
 html>body #contenu{
 height:auto;
 }
@@ -108,7 +108,7 @@ height:auto;
  text-align: right;
 }
 /* -------------------------------------------------------------------
-Menu et styles associés
+Menu et styles associï¿½s
  ------------------------------------------------------------------- */
 #menu h2, #contenu h2{
  font-size: 1.2em;
@@ -135,7 +135,7 @@ Menu et styles associés
  padding-left: 0.8em;
 }
 /* -------------------------------------------------------------------
-Footer et styles associés
+Footer et styles associï¿½s
  ------------------------------------------------------------------- */
 #footer{
  clear: both;
@@ -183,3 +183,5 @@ a{
 a img {
  border: none;
 }
+
+.readmore img { vertical-align: bottom;}
